@@ -1,0 +1,18 @@
+.dash-card:hover {
+  transition: 0.9s !important;
+  transform: scale(1.03);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px !important;
+}
+
+.plan-details:hover {
+  transition: 0.9s !important;
+  background-color: rgb(55, 55, 221);
+  color: white;
+}
+
+@media (min-width: 1025px) {
+  .mobile-toggle{
+    display: none;
+  }
+}
